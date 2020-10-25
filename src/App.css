@@ -1,3 +1,7 @@
+:root {
+  --primaryColor: rgb(25, 220, 74);
+}
+
 body {
   margin: 2rem;
 }
