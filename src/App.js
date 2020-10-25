@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import StyledHeader from './components/StyledHeader'
-import {PropsButton, BigButton} from './components/PropsButton'
+import {DangerButton, SuccessButton} from './components/PropsButton'
 
 import { createGlobalStyle } from 'styled-components'
 
@@ -23,10 +23,8 @@ function App() {
     <GlobalStyle />
 
     <StyledHeader title="Hello from app.js" />
-    <PropsButton color='blue'>Button number one</PropsButton>
-    <PropsButton color='red'>Button number two</PropsButton>
-    <PropsButton>Button number three</PropsButton>
-    <BigButton>Big Button</BigButton>
+    <DangerButton big>danger button</DangerButton>
+    <SuccessButton>success button</SuccessButton>
     
     </div>
   );
