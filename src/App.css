@@ -2,14 +2,14 @@
   --primaryColor: rgb(25, 220, 74);
 }
 
-/* body {
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
-} */
+}
 
 .global {
   color: green;
