@@ -2,6 +2,27 @@
   --primaryColor: rgb(25, 220, 74);
 }
 
-body {
-  margin: 2rem;
+/* body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+.global {
+  color: green;
+  text-transform: capitalize;
+}
+
+.first {
+  letter-spacing: 5px;
+  color: var(--primaryColor);
+}
+
+/* some other css */
+.second {
+  text-transform: uppercase;
+  color: var(--primaryColor);
 }
