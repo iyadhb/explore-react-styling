@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const StyledHeader = () => {
+const StyledHeader = ({title}) => {
     return (
         <StyledWrapper>
-            <h1>Hello from Styled header</h1>
+            <h1>{title}</h1>
             <h2 className="radnom">another styled header</h2>
         </StyledWrapper>
     )
