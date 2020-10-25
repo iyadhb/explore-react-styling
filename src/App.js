@@ -9,6 +9,7 @@ function App() {
     <StyledHeader title="Hello from app.js" />
     <PropsButton color='blue'>Button number one</PropsButton>
     <PropsButton color='red'>Button number two</PropsButton>
+    <PropsButton>Button number three</PropsButton>
     
     </div>
   );
