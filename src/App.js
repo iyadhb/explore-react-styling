@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import {Button, SecondButton} from './components/Buttons'
-import Header from './components/Header'
+import StyledHeader from './components/StyledHeader'
 
 function App() {
   return (
     <div>
-    <Header />
-    <Button>CLick me</Button>
-    <SecondButton>Click me i'm second</SecondButton>
+    <StyledHeader />
+    
     </div>
   );
 }
