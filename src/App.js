@@ -1,7 +1,10 @@
 import React from 'react';
 import './App.css';
-import { RedBox, GreenBox } from './components/Boxes'
-import {Box} from './components/AnnimatedBox'
+import { ThemeProvider } from 'styled-components'
+import { redTheme, greenTheme, blueTheme } from './components/Themes'
+import NavBar from './components/NavBar'
+import Button from './components/Button'
+
 
 
 
@@ -9,12 +12,16 @@ import {Box} from './components/AnnimatedBox'
 
 function App() {
   return (
-    <div>
-   <RedBox color='red' />
-   <GreenBox color='green' />
-   <Box />
+    <ThemeProvider theme={blueTheme}>
+    <main>
+    <NavBar>
+    <Button>Toggle theme</Button>
     
-    </div>
+    </NavBar>
+    </main>
+   
+    
+    </ThemeProvider>
   );
 }
 
