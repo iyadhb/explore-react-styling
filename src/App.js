@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import { BasicInput, AwsomeInput } from './components/Inputs'
+import { RedBox, GreenBox } from './components/Boxes'
+
 
 
 
@@ -8,9 +9,8 @@ import { BasicInput, AwsomeInput } from './components/Inputs'
 function App() {
   return (
     <div>
-   <BasicInput />
-   <AwsomeInput />
-   <AwsomeInput type='email' placeholder='enter your email' />
+   <RedBox color='red' />
+   <GreenBox color='green' />
     
     </div>
   );
