@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import {Banner, SecondBanner} from './components/Banners'
 
 
 function App() {
@@ -7,7 +8,12 @@ function App() {
 
   return (
     <div>
-    Hello from app
+    <Banner>
+    <h1>first banner</h1>
+    </Banner>
+    <SecondBanner>
+    <h1>second banner</h1>
+    </SecondBanner>
     </div>
   );
 }
